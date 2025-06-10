@@ -1,0 +1,4 @@
+import MapplsAPICore
+class MapplsLMSTest {
+    
+}
