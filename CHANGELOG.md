@@ -1,5 +1,12 @@
 # Changes to the MapplsLMS SDK for iOS
 
+## 2.0.6 - 01 Oct, 2026
+
+- Added `appSessionId` support, included in each logged event's metadata.
+- Added a unit test suite with code-coverage reporting.
+- Improved sync reliability: logged events are kept on device until every
+  packet is delivered successfully.
+
 ## 2.0.5 - 01 Oct, 2026
 
 - Project layout refactor and build improvements.

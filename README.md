@@ -30,7 +30,7 @@ Dependencies**, or add it to your `Package.swift`:
 dependencies: [
     .package(
         url: "https://github.com/mappls-api/mappls-lms-ios-distribution.git",
-        from: "2.0.5"
+        from: "2.0.6"
     )
 ]
 ```
@@ -48,10 +48,11 @@ Then add `MapplsLMS` to your target's dependencies:
 
 ## 📦 Version History
 
-> **Latest release · `2.0.5`** — 01 Oct 2026 · See [CHANGELOG.md](CHANGELOG.md) for full release notes.
+> **Latest release · `2.0.6`** — 01 Oct 2026 · See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 | Version | Date | Highlights |
 | :---: | :---: | :--- |
+| **`2.0.6`** | 01 Oct 2026 | `appSessionId` in event metadata, unit test suite with coverage reporting, and improved sync reliability. |
 | **`2.0.5`** | 01 Oct 2026 | Project layout refactor and build improvements. |
 | **`2.0.4`** | 01 Oct 2026 | OAuth2 authentication support, thread-safety fixes, and stability improvements. |
 | **`1.0.6`** | 07 Feb 2025 | Bug fixes. |
